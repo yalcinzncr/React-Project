@@ -1,0 +1,5 @@
+describe('selectSikayetKonuDomain', () => {
+  it('Expect to have unit tests specified', () => {
+    expect(true).toEqual(true);
+  });
+});

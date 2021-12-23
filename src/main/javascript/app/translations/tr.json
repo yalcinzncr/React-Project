@@ -1,0 +1,8 @@
+{
+  "app.containers.App.copyright": "2019  Her hakkı saklıdır *****",
+  "app.containers.App.siteName": "***** ŞİKAYET YÖNETİM SİSTEMİ",
+  "app.containers.HelloWorld.hello": "Örnek sayfa. Bileşeni(container/HelloWorld) silmeyi unutmayınız",
+  "app.containers.NotFoundPage.header": "Sayfa bulunamadı",
+  "app.containers.App.searchNoResultsMessage": "Kayıt bulunamadı.",
+  "app.containers.App.searchPlaceholder": "Hızlı arama"
+}

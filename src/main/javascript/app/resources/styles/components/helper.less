@@ -1,0 +1,137 @@
+.ui.selection.dropdown .menu {
+  max-height: 20rem;
+
+  @media only screen and (max-width: 767px) {
+    max-height: 14rem;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-size: 13px;
+}
+
+.layout.has-navigation > .navigation {
+  width: 249px !important;
+}
+
+.layout.has-navigation > .navigation-collapse {
+  width: 80px !important;
+}
+
+html > body > .wrapper > .container > .ui.header > .container > .item.logo {
+  width: 250px !important;
+}
+
+html > body > .wrapper > .container > .ui.header-collapse > .container > .item.logo {
+  width: 80px !important;
+}
+
+.centered-clazz {
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ui.modal {
+  position: relative !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.react-datepicker,
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.ui.toggle.checkbox {
+  z-index: 0;
+}
+
+.my-node-appear {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.my-node-appear-active {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+  -webkit-transition: opacity 500ms, transform 500ms;
+  -ms-transition: opacity 500ms, transform 500ms;
+}
+
+.my-node-enter {
+  opacity: 0;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+
+.my-node-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+  -webkit-transition: opacity 500ms, transform 500ms;
+  -ms-transition: opacity 500ms, transform 500ms;
+}
+
+.my-node-exit {
+  opacity: 1;
+}
+
+.my-node-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+
+html > body > .wrapper > .container > .ui.header > .container > .menu > .item.user.dropdown.active > .menu > .menu {
+  padding-top: 0 !important;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.filepond--file-action-button.filepond--file-action-button:after {
+  position: absolute;
+  left: -0.75em;
+  right: -0.75em;
+  top: -0.75em;
+  bottom: -0.75em;
+  content: '';
+}
